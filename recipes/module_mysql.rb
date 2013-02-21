@@ -21,8 +21,8 @@
 
 pkg = value_for_platform(
     [ "centos", "redhat" ] => {
-      [ "6.0", "6.1", "6.2", "6.3" ] => "php-mysql",
-      "default" => "php54-mysql"
+      [ "6.0", "6.1", "6.2", "6.3" ] => "php54-mysql",
+      "default" => "php-mysql"
     }, 
     "fedora" => {
       "default" => "php53-mysql"
